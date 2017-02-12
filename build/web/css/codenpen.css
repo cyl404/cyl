@@ -1,0 +1,246 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-1-10, 9:53:54
+    Author     : hxsd
+*/
+*{margin:0px; padding:0px;}
+header{
+    width:100%;
+    height:110px;
+    background-color: #e5e5e5;
+}
+ul li{
+    list-style: none;
+}
+
+.inner{
+    width:1100px;
+    margin:0 auto;
+}
+header .inner .logo{
+    float:left;
+}
+header .inner .logo .title{
+    font-size: 36px;
+    color:#46869f;
+    line-height: 110px;
+    text-transform: uppercase;
+    font-family: fonts,arial;
+}
+header .inner .menu{
+    float:right;
+    font-size:12px;
+    line-height: 81px;
+}
+section .one{
+    background-image:-moz-linear-gradient(45deg,#8abe76 10%,#4c90a7 30%,#466dbc);
+    text-align: center;
+    padding:100px 0px;
+}
+section .one .btn{
+    margin-top:30px;
+}
+section .one .btn a{
+    width:175px;
+    height:50px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #4c93a5;
+    line-height: 50px;
+}
+section .one .btn a{
+    text-decoration: none;
+    font-size:20px;
+    text-transform: uppercase;
+    color:white;
+    display: inline-block;
+    position: relative;
+    transition:all 2s;
+}
+section .one .btn a:hover{
+    padding:0px 50px;
+    background-color:rgba(255,255,255,0.5); 
+}
+section .one .btn a:before{
+    content:'';
+    height:100px;
+    width:1px;
+    background-color:white;
+    position:absolute;
+    top:51px;
+    left:50%;
+    display: inline-block;
+}
+section .one .wrap h1{
+    font-size:36px;
+    font-weight: normal;
+    line-height: 49px;
+    line-height: 60px;
+    color:white;
+}
+section .one .wrap h1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 36px;
+    border-bottom: 1px dotted #fbfdff;
+    position:relative;                                       
+}
+section .one .wrap h1 a:before{
+    content: '';
+    width:100%;
+    border-top:1px dotted #fff;
+    position: absolute;
+    left:0;
+    top:100%;
+    transition:all  0.8s;
+    opacity: 0;
+}
+section .one .wrap h1 a:hover:before{
+    opacity:1;
+    top:0;
+}
+section .one .wrap p{
+    font-size:18px;
+    line-height: 40px;
+    margin-top:14px;
+    color:white;
+}
+@font-face{
+    font-family: 'fonts';
+    src:url(../fonts/Munro.eot),
+        url(../fonts/Munro.otf),
+        url(../fonts/Munro.svg),
+        url(../fonts/Munro.ttf),
+        url(../fonts/Munro.woff);
+}
+section .one .inner i{
+    color: white;
+    font-size: 70px;
+    animation:cartoon  3s infinite;
+}
+@keyframes cartoon{
+    0%{text-shadow:0 0 0 white;}
+    50%{text-shadow:0 0 20px white;}
+    0%{text-shadow:0 0 0 white;}
+}
+section .two{
+    background-color: #eaf9fe;
+}
+section .two .inner{
+    background-color: #eaf9fe;
+    width:1000px;
+    margin:0 auto;
+}
+section .two .left{
+    float: left;
+    width:500px;
+    margin-top:100px;
+}
+section .two .left ul li{
+    overflow: hidden;
+    width:140px;
+    height:140px;
+    border:2px solid #6b94a2;
+    float:left;
+    margin:40px 40px;
+    text-align: center;
+    transform: rotate(45deg);
+    transition: 1s;
+}
+section .two .left ul li a{
+    font-size:65px;
+    width:140px;
+    height:140px;
+    line-height: 140px;
+    transform: rotate(-45deg);
+    display: block;
+    overflow: hidden;
+}
+section .two .left ul li a{
+
+}
+section .two .right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+section .two .left ul li:nth-child(1) a{
+    color:#c0e890;
+    transition: 1s;
+}
+section .two .left ul li:nth-child(1):hover a{
+    transform: rotate(-45deg) scale(1.2,0.8);
+}
+section .two .left ul li:nth-child(2):hover a{
+    transform: rotate(315deg);
+}
+section .two .left ul li:nth-child(2) a{
+    color:#8adda9;
+    transition:0.5s;
+}
+section .two .left ul li:nth-child(3) a{
+    color:#6bd3c8;
+    transition: 1s;
+}
+section .two .left ul li:nth-child(3):hover a{
+    transform: rotate(-45deg) skew(45deg);
+}
+section .two .left ul li:nth-child(4) a{
+    color:#58add2;
+    transition:1s;
+}
+section .two .left ul li:hover{
+    background-color: #31add6;
+}
+section .two .left ul li:nth-child(5):hover a{
+    transform: rotate(-45deg) scale(0.8);
+    color:white;
+}
+section .two .left ul li:nth-child(6):hover a{
+    transform: rotate(-45deg) translateY(-30px);
+    color:white;
+}
+section .two .left ul li:nth-child(4):hover a{
+    transform: rotate(-45deg) scale(1.2) rotate(180deg);
+}
+section .two .left ul li:nth-child(5) a{
+    color:#4a88d3;
+    transition:1s;
+}
+section .two .left ul li:nth-child(6) a{
+    color:#6b88e6;
+    transition:1s;
+}
+section .two .left ul li:hover a{
+    color:white;
+    text-shadow: 0 0 10px #fff;
+}
+section .two .right{
+    width:500px;
+}
+section .two .right h1{
+    font-size:30px;
+    color:#46869f;
+    line-height: 50px;
+    margin-top: 100px;
+}
+section .two .right p{
+    font-size:14px;
+    line-height: 33px;
+    padding-bottom: 23px;
+}
+section .two .right .text{
+    margin-top:28px;
+}
+section .two .right .line{
+    width:160px;
+    height:1px;
+    background-color:#4984a2;
+    margin-top:30px;
+}
+@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.3.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
